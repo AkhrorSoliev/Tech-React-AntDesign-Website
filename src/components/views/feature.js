@@ -9,7 +9,6 @@ import image4 from '../../assets/images/easy-customise.jpg';
 import image5 from '../../assets/images/unlimited-features.jpg';
 import image6 from '../../assets/images/advanced-option.jpg';
 
-
 const { Meta } = Card;
 
 function AppFeature() {
@@ -28,7 +27,7 @@ function AppFeature() {
                                 cover={<img alt="Modern Design" src={image1} />}
                             >
                                 <Meta title="Modern Design" />
-                            </Card>,
+                            </Card>
                         </Col>
                         <Col span={8}>
                             <Card
@@ -36,7 +35,7 @@ function AppFeature() {
                                 cover={<img alt="Modern Design" src={image2} />}
                             >
                                 <Meta title="Clean and Elegant" />
-                            </Card>,
+                            </Card>
                         </Col>
                         <Col span={8}>
                             <Card
@@ -44,7 +43,7 @@ function AppFeature() {
                                 cover={<img alt="Modern Design" src={image3} />}
                             >
                                 <Meta title="Great Support" />
-                            </Card>,
+                            </Card>
                         </Col>
                         <Col span={8}>
                             <Card
@@ -52,7 +51,7 @@ function AppFeature() {
                                 cover={<img alt="Modern Design" src={image4} />}
                             >
                                 <Meta title="Easy to customise" />
-                            </Card>,
+                            </Card>
                         </Col>
                         <Col span={8}>
                             <Card
@@ -60,7 +59,7 @@ function AppFeature() {
                                 cover={<img alt="Modern Design" src={image5} />}
                             >
                                 <Meta title="Unlimited Features" />
-                            </Card>,
+                            </Card>
                         </Col>
                         <Col span={8}>
                             <Card
@@ -68,7 +67,7 @@ function AppFeature() {
                                 cover={<img alt="Modern Design" src={image6} />}
                             >
                                 <Meta title="Advanced Options" />
-                            </Card>,
+                            </Card>
                         </Col>
                     </Row>
                 </div>
