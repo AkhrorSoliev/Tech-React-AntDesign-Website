@@ -1,8 +1,11 @@
 import React from 'react'
+
 import AppHero from '../home/hero'
 import About from './about'
 import AppFeature from './feature'
 import AppWorks from './works'
+import AddFaq from './faq'
+import AppPricing from './pricing'
 
 function AppHome() {
   return (
@@ -10,7 +13,9 @@ function AppHome() {
       <AppHero />
       <About />
       <AppFeature />
-      <AppWorks/>
+      <AppWorks />
+      <AddFaq />
+      <AppPricing />
     </div>
   )
 }
