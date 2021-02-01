@@ -14,7 +14,7 @@ function AppWorks() {
         setIsModalVisible(false);
     };
     return (
-        <div className="block worksBlock">
+        <div id='works' className="block worksBlock">
             <div className="container-fluid">
                 <div className="titleHolder">
                     <h2>How It Works ?</h2>
